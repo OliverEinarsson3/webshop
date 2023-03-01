@@ -1,0 +1,33 @@
+#cart-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#cart {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#cart li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#cart li:last-child {
+  border-bottom: none;
+}
+
+#cart li select {
+  width: 50px;
+  margin-left: 10px;
+}
+  
+  
+  
